@@ -69,4 +69,18 @@ Make sure you have the following installed on your machine:
     The React application should now be running at `http://localhost:3000`.
 
 ## Project Structure
+snake-game/
+├── backend/
+│ ├── venv/
+│ ├── app.py
+│ └── requirements.txt
+├── frontend/
+│ ├── node_modules/
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ └── App.js
+│ ├── package.json
+│ └── package-lock.json
+└── README.md
 
