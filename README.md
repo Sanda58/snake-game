@@ -71,16 +71,19 @@ Make sure you have the following installed on your machine:
 ## Project Structure
 snake-game/
 ├── backend/
-│ ├── venv/
-│ ├── app.py
-│ └── requirements.txt
+│   ├── venv/
+│   │   └── (Virtual environment files)
+│   ├── app.py
+│   └── requirements.txt
 ├── frontend/
-│ ├── node_modules/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ └── App.js
-│ ├── package.json
-│ └── package-lock.json
+│   ├── node_modules/
+│   │   └── (Node modules files)
+│   ├── public/
+│   │   └── (Public files like index.html)
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── (React components files)
+│   │   └── App.js
+│   ├── package.json
+│   └── package-lock.json
 └── README.md
-
